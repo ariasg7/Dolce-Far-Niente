@@ -2,7 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dolce Far Niente",
+  title: "Dolce Far Niente | Luxury Skincare",
+  description: "Experience the glass skin standard with clinical precision.",
+  openGraph: {
+    title: "Dolce Far Niente",
+    description: "Bespoke facial treatments and high-end skincare.",
+    images: ["/img/Dolce_Logo.png"], // Optional: fallback if you don't use the file method above
+  },
 };
 
 export default function RootLayout({
