@@ -17,7 +17,7 @@ export const AboutSection = () => {
         >
           <div className="aspect-[3/4] md:aspect-[4/5] w-full rounded-t-full overflow-hidden border border-[#1A1A1A]/5 shadow-2xl shadow-[#1A1A1A]/5">
             <img 
-              src="https://images.unsplash.com/photo-1621270292531-1f3ba3c3194d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBhZXN0aGV0aWNpYW4lMjBwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMG5ldXRyYWwlMjBiYWNrZ3JvdW5kfGVufDF8fHx8MTc3MDM0OTM3MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="img/Jo.jpeg"
               alt="Esthetician Portrait"
               className="w-full h-full object-cover"
             />
@@ -45,11 +45,11 @@ export const AboutSection = () => {
             </p>
           </div>
           
-          <div className="mt-10">
+          <div className="-mt-20">
              <img 
-               src="figma:asset/6ad5ebde3bf852e3405cf4364609223aa2a08b74.png" 
+               src="img/Jo Signature.png" 
                alt="Signature" 
-               className="h-16 w-auto opacity-50"
+               className="h-100 w-auto opacity-50"
              />
           </div>
         </motion.div>
