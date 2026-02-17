@@ -52,7 +52,7 @@ export const LeadGen = () => {
                 Exclusive Invitation
               </span>
               <h2 className="font-cormorant text-4xl md:text-5xl lg:text-6xl text-[#1A1A1A] mb-6">
-                Enjoy <span className="italic text-[#C5A27D]">20% off</span> your next ritual.
+                Enjoy <span className="italic text-[#C5A27D]">15% off</span> your next ritual.
               </h2>
               <p className="font-montserrat text-[#1A1A1A]/60 text-sm mb-12 max-w-md mx-auto leading-relaxed">
                 Join our Inner Circle to receive your gift code, plus exclusive access to flash sales.
