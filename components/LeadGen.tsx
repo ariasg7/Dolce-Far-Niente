@@ -7,11 +7,14 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 export const LeadGen = () => {
   const [status, setStatus] = useState("idle"); // idle, loading, success
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("loading");
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  setStatus("loading");
 
-    const formData = new FormData(e.target);
+  // Use e.currentTarget instead of e.target for better type safety
+  const formData = new FormData(e.currentTarget); 
+  
+  // ... the rest of your code
     const data = {
       name: formData.get("name"),
       phone: formData.get("phone"),
