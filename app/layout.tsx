@@ -2,12 +2,28 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dolce Far Niente | Luxury Skincare",
-  description: "Experience the glass skin standard with clinical precision.",
+  title: "Dolce Far Niente | Luxury Skincare & Clinical Esthetics",
+  description: "Experience the glass skin standard with clinical precision. Offering bespoke facial treatments and high-end skincare in [Your City, State].",
+  keywords: ["Esthetician", "Facials", "Glass Skin", "Luxury Skincare", "Clinical Esthetics", "[Your City] Skincare"],
   openGraph: {
-    title: "Dolce Far Niente",
-    description: "Bespoke facial treatments and high-end skincare.",
-    images: ["/img/Dolce_Logo.png"], // Optional: fallback if you don't use the file method above
+    title: "Dolce Far Niente | Luxury Skincare",
+    description: "Bespoke facial treatments and high-end skincare. Book your clinical glass skin experience.",
+    url: 'https://www.dolcefarnienteesthetics.com',
+    siteName: 'Dolce Far Niente',
+    images: [
+      {
+        url: "/img/Dolce_Logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Dolce Far Niente Luxury Skincare Logo",
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
