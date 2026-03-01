@@ -45,11 +45,11 @@ export const AboutSection = () => {
             </p>
           </div>
           
-          <div className="-mt-20">
+          <div className="mt-20">
              <img 
                src="img/Jo Signature.png" 
                alt="Signature" 
-               className="h-100 w-auto opacity-50"
+               className="h-50 w-auto opacity-50"
              />
           </div>
         </motion.div>

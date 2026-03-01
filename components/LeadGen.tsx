@@ -108,7 +108,7 @@ export const LeadGen = () => {
               <CheckCircle2 size={48} className="text-[#C5A27D] mx-auto mb-6" strokeWidth={1} />
               <h2 className="font-cormorant text-4xl text-[#1A1A1A] mb-4">Welcome to the Circle.</h2>
               <p className="font-montserrat text-[#1A1A1A]/60 text-sm">
-                Check your messages shortly for your 20% off code.
+                Check your messages shortly for your 15% off code.
               </p>
             </motion.div>
           )}

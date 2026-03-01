@@ -49,8 +49,8 @@ export const Footer = () => {
              className="h-28 w-auto object-contain brightness-0 invert opacity-80"
            />
            <address className="font-montserrat text-sm text-[#E5E1DE]/60 not-italic">
-             123 Luxury Ave, Suite 400<br />
-             New York, NY 10012
+             96 Lockwood Ave, Apt 3R<br />
+             Yonkers, NY 10701
            </address>
         </div>
 
