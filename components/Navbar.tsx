@@ -72,13 +72,16 @@ export const Navbar = () => {
                 Book Now
           </motion.a>
 
-            <motion.button
+            <motion.a
+              href="https://book.squareup.com/appointments/kar4h00rwdzzue/location/L0JE19X7ME268/services?buttonTextColor=ffffff&color=06052c&locale=en&referrer=so"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#1A1A1A] text-[#E5E1DE] px-4 py-2 rounded-full font-montserrat text-xs tracking-wide hover:bg-[#C5A27D] transition-colors duration-300 whitespace-nowrap md:hidden"
+              className="bg-[#1A1A1A] text-[#E5E1DE] px-4 py-2 rounded-full font-montserrat text-xs tracking-wide hover:bg-[#C5A27D] transition-colors duration-300 whitespace-nowrap md:hidden inline-block text-center"
             >
               Book Now
-            </motion.button>
+            </motion.a>
           </div>
         </div>
       </motion.nav>
